@@ -474,6 +474,30 @@ footer .allfoot p span{
 
 
 
+ /* tablet view */
+
+ @media (max-width:992px){
+    .container{
+        max-width: 850px;
+    }
+    section .man .left{
+        width: 400px;
+    }
+    section .man .right{
+        width: 400px;
+    }
+    footer .allfoot .about {
+        width: 251px;
+        margin-top: 55px;
+    }
+    section .about{
+        align-items: center;
+    }
+    footer .allfoot .news .email {
+        width: 408px;
+    }
+}
+
 
 /* mobile view */
 
@@ -489,7 +513,9 @@ footer .allfoot p span{
         height: 70px;
         z-index: 1;
     }
-
+    header nav{
+        justify-content: space-around;
+    }
     header .navbar .cheakbtn{
         display: block;
         font-size: 30px;
@@ -668,29 +694,7 @@ footer .allfoot p span{
 
 }
 
- /* tablet view */
 
- @media (max-width:992px){
-    .container{
-        max-width: 850px;
-    }
-    section .man .left{
-        width: 400px;
-    }
-    section .man .right{
-        width: 400px;
-    }
-    footer .allfoot .about {
-        width: 251px;
-        margin-top: 55px;
-    }
-    section .about{
-        align-items: center;
-    }
-    footer .allfoot .news .email {
-        width: 408px;
-    }
-}
 
 
 
